@@ -27,7 +27,7 @@
     {
         background-color: rgb(1, 31, 78);
         width: 100%;
-        font-size: 36px;
+        font-size: 20px;
         top: 0;
         left: 0;
         position: fixed;
@@ -95,8 +95,15 @@
     }     
 }
 
-nav{
+nav
+{
     z-index: 1000;
+
+}
+
+nav ul li
+{
+    margin-left: -50px;
 }
 
 .spacer
@@ -125,7 +132,7 @@ body{
 
 }
 .title img{
-    background-color: rgb(255, 240, 240);
+    background-color: rgb(255, 255, 255);
     padding: 40px;
     opacity: 80%;
     border-radius: 45px;
@@ -140,7 +147,8 @@ body{
     align-items: center;
     border-top: 2px dotted white;
     border-radius: 50px;
-    
+    padding-top: 15px;
+
 }
 
 .titlepara
@@ -166,12 +174,40 @@ body{
     
 }
 
+.atmosphere
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.atmosphere p
+{
+    margin-top: 50px;
+    display: flex;
+    color: #ddd;
+    font-family: Pridi;
+    font-size: 20px;
+
+}
+.atmosphere img
+{
+    width: 600px;
+    display: flex;
+    border-radius: 50px;
+    border-radius: 45px;
+    position:relative;
+    border: 2px solid rgb(255, 255, 255);
+}
+
 @media screen and (max-width: 359px)
 {
     .title img
     {
         width : 200px;
         margin-top: 80px;
+
     }
     .titlepara
     {
@@ -181,6 +217,15 @@ body{
     {
         font-size: 30px;
     }
+    .atmosphere p
+    {
+        font-size:13px;
+    }
+    .atmosphere img
+    {
+        width: 300px;
+    }
+   
 }
 
 @media screen and (min-width: 360px) and (max-width: 767px)
@@ -198,6 +243,23 @@ body{
     {
         font-size: 34px;
     }
+    .atmosphere p 
+    {
+        font-size:16px;
+    }
+    .atmosphere img
+    {
+        width: 400px;
+    }
+    .content .content1
+    {
+        width: 400px;
+    }
+    .content .content1 img
+    {
+        width: 300px;
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px)
@@ -207,6 +269,7 @@ body{
         width : 250px;
         margin-top : 25px;
     }
+    
 }
 
 @media screen and (min-width : 1200px) 
@@ -216,6 +279,84 @@ body{
         width :300px
     }
 }
+.content
+{   
+    border-top: #ddd dotted 2px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-top: 50px;
+
+}
+
+.content .content1
+{
+    display: flex;
+    background-color: rgba(22, 65, 105, 0.699);
+    padding: 50px 5px 50px 5px ;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+    width: 600px;
+    border-radius: 15px;
+    border : white solid 2px;
+    
+    
+}
+.content .content1 p
+{
+    display: flex;
+    text-align: center;
+    color: #ddd;
+    font-size: 19px;
+    font-family: Pridi;
+    
+}
+
+.content .content1 img
+{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    border: black solid 4px;
+    
+}
+
+.content .content2
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(22, 65, 105, 0.699);
+    padding: 50px 5px 50px 5px ;
+    align-items: center;
+    width: 600px;
+    border-radius: 15px;
+    border : white solid 2px ;
+    margin-top: 25px;
+
+}
+
+.content2 img
+{
+    width : 500px;
+    border-radius: 15px;
+    border: black solid 4px;
+}
+
+.content .content2 p
+{
+    display: flex;
+    text-align: center;
+    color: #ddd;
+    font-size: 19px;
+    font-family: Pridi;
+}
+
+
 
 
 /*----------------------------------------Footer---------------------------------------------------*/
