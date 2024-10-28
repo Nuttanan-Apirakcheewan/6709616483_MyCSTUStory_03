@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap');
+
+/*-----------------------------------------NAV BAR-------------------------------------------------*/
+
+nav
+{
+    background-color: rgb(1, 31, 78);
+    padding-bottom: 7px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+nav ul 
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-left: -66px;
+}
+
+nav ul li 
+{
+    margin: 0 30px;
+}
+
+nav ul li a 
+{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover 
+{
+    background-color: #df7e00;
+    padding-bottom: 7px;
+    border-radius: 5px;
+}
+/*----------------------------------------Footer---------------------------------------------------*/
+html, body 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer 
+{
+    background-color: rgb(7, 18, 36);
+    opacity: 80%;
+    width: 100%;
+    font-family: Pridi;
+    color: #ddd;
+    padding: 20px;
+    border-top: 3px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer 
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.footer img 
+{
+    width: 15%;
+    margin-right: 20px;
+}
+
+
+.footer-content 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.footer-content p 
+{
+    margin: 5px 0;
+}
+
+#git 
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+#git li 
+{
+    display: inline;
+    margin-right: 10px;
+}
+/*----------------------------------------HOMEPAGE-------------------------------------*/
+.header
+{
+    font-weight: bold;
+    font-size: 25px;
+    font-style: oblique;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    margin-top: -10px;
+    font-family: Pridi;    
+}
+body
+{
+    background-image: url("resources/HD-wallpaper-wall-board-lights-black-background-black-background.jpg")
+}
+#first
+{
+    text-decoration:dotted;
+    font-size: 40px;
+    font-style: italic;
+    font-family: Pridi;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(161, 19, 19, 0.699);
+    
+}
+
+.cstu
+{
+    background-color: aliceblue;
+    margin: auto;
+    width: 275px;
+    height: 3px;
+    margin-top: -36px;
+    -webkit-box-shadow: 7px 9px 20px 13px #272727; 
+    box-shadow: 7px 9px 20px 13px #000000;
+}
+
+.atmosphere
+{
+    border: 3px solid #ddd;
+    border-radius: 7px;
+    padding: 5px;
+    width: 500px;
+    margin: auto ;
+}
+
+.para1
+{
+    text-align: center;
+    color: rgb(200, 230, 255);
+    padding: 20px;
+    margin-top: 290px;
+}
+
+.para2
+{
+    font-family: Pridi;
+    text-align: center;
+    color: rgb(200, 230, 255);
+    padding: 20px;
+    margin-top: 2px;
+}
+
+.content-wrapper 
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.firstmeetimg, .firstmeetact 
+{
+    border: 3px solid #ddd;
+    border-radius: 7px;
+    padding: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 35%; 
+    font-family: Pridi;
+    color: rgb(200, 230, 255);
+    background-color: rgb(7, 18, 36);
+}
+
+.firstmeetimg img, .firstmeetact img 
+{
+    width: 100%; 
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.infotable
+{
+    color: #df7e00;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: Pridi;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-style: italic;
+    margin-bottom: 100px;
+}
+
+.background-table
+{
+    background-color: rgb(7, 18, 36);
+    color: rgb(200, 230, 255);
+    font-size: 20%px;
+    -webkit-text-stroke-width: 0px;
+}
+
+#leftarrange
+{
+    text-align: left;
+}
+
+address
+{
+    margin-top: 50px;
+    font-style: italic;
+    font-size: 12px;
+    text-align: left;
+    margin-left: -30px
+}
+
+dt
+{
+    font-style: oblique;
+    font-size: 30px;
+}
+
+dd
+{
+    font-size: 15px;
+    font-style: italic;
+}
+
+/*----------------------------------------Journey----------------------------------------------*/
+
+.timeline img
+{
+    width: 500px;
+    float:left;
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    margin-left: 32%;
+    margin-bottom: 30px;
+    display: flex;
+
+}
+article .timeline p span
+{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 180px;
+}
+.timeline
+{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 139px;
+    margin-top: 100px;
+    font-family: Pridi;
+
+}
+
+.timeline p
+{
+    font-size: 50px;
+    color: #ddd;
+    display: flex;
+    text-align: justify;
+    float: inline-start;
+    margin: 0%;
+    margin-left: -28px;
+}
+
+article .timeline .circle 
+{
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 50%;
+    width: 50px; 
+    height: 50px; 
+    border: 3px solid #ff8a04;
+    justify-content: center;
+    align-items: center;
+    color: #ff8a04;
+    font-size: 60px; 
+    font-family: Pridi;
+    display: flex;
+}
+
+.year1 , .year2
+{
+    margin:0%;
+    margin-top: -1950px;
+}
+
+article .timeline .line 
+{
+    width: 3px;
+    height: 400px; 
+    background-color:#ff8a04;
+    margin: 0 47px;
+}
+
+.year1 img
+{
+    width: 25%;
+    display: flex;
+    margin-top: -700px;
+    margin-left: 25%;
+    border: 2px solid #ffffff;
+    border-radius: 10px
+   
+}
+
+.timeline ,.year1 img , .year1 .para,.year2 img, .year2 .para p,
+.year3 img , .year3 .para , .year4 img , .year4 .para
+{
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.year1 .para
+{
+    color: #ddd;
+    font-size: 20px;
+    float:left;
+    display: flex;
+    margin-top: -300px;
+    margin-left: 55%;
+    text-align: left;
+    background-color: #19a78f;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px;
+    width: 40%;
+    
+}
+
+.year2
+{
+    margin:0%;
+    margin-top: 100px;
+}
+
+.year2 img
+{
+    width: 30%;
+    float:right;
+    margin-right: 10%;
+    border: 2px solid #ffffff;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 7px;
+    
+}
+
+.year2 .para p
+{
+    color: #ddd;
+    font-size: 20px;
+    float:left;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 18%;
+    text-align: left;
+    background-color: #1c88a3;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 20px;
+    width: 34%;
+}
+
+.year3 img
+{
+    width: 30%;
+    float: inline-start;
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40%;
+    justify-content: center;
+}
+
+.year3 .para p
+{
+    color: #ddd;
+    font-size: 20px;
+    float:left;
+    display: flex;
+    margin-left: 37%;
+    text-align: center;
+    background-color: #075dad;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 20px;
+    width: 34%;
+}
+
+.year4 img
+{
+    width: 30%;
+    float:left;
+    margin-left: 19%;
+    margin-top: 80px;
+    border: 2px solid #ffffff;
+    display: flex;
+    border-radius: 10px;
+}
+
+.year4 .para p
+{
+    color: #ddd;
+    font-size: 20px;
+    align-items: end;
+    float:inline-start;
+    display: flex;
+    text-align: left;
+    margin-left: 120px;
+    margin-top: 180px;
+    background-color: #19a78f;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px;
+    width: 30%;
+    margin-bottom: 176px;
+}
+/*----------------------------------------FUTURE-------------------------------------------------*/
+
+.right-arrow {
+    width: 0px;
+    height: 0px;
+    margin-top: 470px;
+    margin-left: 200px;
+    float: inline-start;
+    display: flex;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 90px solid rgb(255, 255, 255);
+}
+.right-arrow ,.box1
+{
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.box1
+{
+    padding: 100px;
+    background-color: #1962a7;
+    width: 20%;
+    height: 500px;
+    margin-top: 200px;
+    float: inline-start;
+    display: flex;
+    margin-left: 120px;
+    opacity: 80%;
+    border: 3px solid white;
+    border-radius: 14px;
+    margin-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box1 p 
+{
+    display: flex;
+    float: left;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: Pridi;
+    margin-top: -50px ;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000000;
+    font-weight: bold;
+   
+}
+
+.box1 img
+{
+    width: 300px;
+    height: 260px;
+    display: flex;
+    border-radius: 14px;
+    margin: 0%;
+    margin-top: -40px;
+    justify-content: centers;
+}
+
+.box1 .para
+{
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: left;
+    background-color: rgb(154, 164, 255);
+    font-family: Pridi;
+    color: white;
+    border-radius: 14px;
+    padding: 10px;
+}
+
+.box2
+{
+    padding: 100px;
+    background-color: #1c9fd3;
+    width: 20%;
+    height: 500px;
+    margin-top: 200px;
+    float: right;
+    display: flex;
+    margin-right: 120px;
+    opacity: 80%;
+    border: 3px solid white;
+    border-radius: 14px;
+    margin-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box2 img
+{
+    width: 80%;
+    display: flex;
+    border-radius: 14px;
+    margin: 0%;
+    margin-top: -38px;
+    justify-content: centers;
+}
+
+.box2 p
+{
+    display: flex;
+    float: left;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: Pridi;
+    margin-top: -70px ;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000000;
+    font-weight: bold;
+}
+
+.box2 .para
+{
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: left;
+    background-color: rgb(58, 72, 194);
+    font-family: Pridi;
+    color: white;
+    border-radius: 14px;
+    padding: 10px;
+}
