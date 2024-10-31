@@ -225,7 +225,8 @@ body{
     {
         width: 300px;
     }
-   
+
+ 
 }
 
 @media screen and (min-width: 360px) and (max-width: 767px)
@@ -250,14 +251,6 @@ body{
     .atmosphere img
     {
         width: 400px;
-    }
-    .content .content1
-    {
-        width: 400px;
-    }
-    .content .content1 img
-    {
-        width: 300px;
     }
 
 }
@@ -311,14 +304,14 @@ body{
     display: flex;
     text-align: center;
     color: #ddd;
-    font-size: 19px;
+    font-size: 100%;
     font-family: Pridi;
     
 }
 
 .content .content1 img
 {
-    width: 500px;
+    width: 100%;
     display: flex;
     align-items: center;
     border-radius: 15px;
@@ -342,7 +335,7 @@ body{
 
 .content2 img
 {
-    width : 500px;
+    width : 100%;
     border-radius: 15px;
     border: black solid 4px;
 }
@@ -352,7 +345,7 @@ body{
     display: flex;
     text-align: center;
     color: #ddd;
-    font-size: 19px;
+    font-size: 100%;
     font-family: Pridi;
 }
 
